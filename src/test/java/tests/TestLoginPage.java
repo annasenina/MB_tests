@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class TestLoginPage extends TestBase{
 
     @Test
-    @AllureId("1")
+    //@AllureId("1")
     @DisplayName("Можно посмотреть подсказку у поля \"Телефон\" ")
     void openMainPageTest(){
         open("https://multibonus.ru/");
