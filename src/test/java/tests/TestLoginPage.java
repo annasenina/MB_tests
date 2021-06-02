@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.open;
 
 @Tag("web")
 @Feature("Login tests")
-public class TestLoginPage {
+public class TestLoginPage extends TestBase{
 
     @Test
     @AllureId("1")
