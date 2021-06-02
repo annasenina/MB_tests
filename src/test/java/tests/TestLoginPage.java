@@ -1,10 +1,12 @@
 package tests;
 
+import io.qameta.allure.Allure;
 import io.qameta.allure.AllureId;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Tag;
 import io.qameta.allure.Feature;
+import static io.qameta.allure.Allure.step;
 
 import static com.codeborne.selenide.Selenide.open;
 
@@ -13,10 +15,11 @@ import static com.codeborne.selenide.Selenide.open;
 public class TestLoginPage extends TestBase{
 
     @Test
-    //@AllureId("1")
+    @AllureId("2965")
     @DisplayName("Можно посмотреть подсказку у поля \"Телефон\" ")
     void openMainPageTest(){
-        open("https://multibonus.ru/");
+
+        step ("Открываем главную страницу", ()-> open("https://multibonus.ru/"));
 
 
     }
