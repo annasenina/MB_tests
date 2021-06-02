@@ -25,7 +25,7 @@ public class TestLoginPage extends TestBase{
     }
 
     @Test
-    @AllureId("2966")
+    //@AllureId("2966")
     @DisplayName("Можно посмотреть подсказку у поля \"Пароль\" ")
     void canWatchPasswordTooltipTest(){
 
