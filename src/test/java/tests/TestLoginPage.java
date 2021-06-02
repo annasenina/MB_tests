@@ -14,9 +14,11 @@ public class TestLoginPage extends TestBase{
 
     @Test
     @AllureId("1")
-    @DisplayName("Successful login with Google account")
+    @DisplayName("Можно посмотреть подсказку у поля \"Телефон\" ")
     void openMainPageTest(){
         open("https://multibonus.ru/");
+
+
     }
 
 }
