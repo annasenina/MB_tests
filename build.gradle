@@ -58,6 +58,7 @@ tasks.withType(Test) {
         ]
     }
 
+
     testLogging {
         lifecycle {
             events "started", "failed"
